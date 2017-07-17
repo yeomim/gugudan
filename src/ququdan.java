@@ -26,11 +26,17 @@ public class ququdan {
 	int or = scanner.nextInt();
 	System.out.println(or+"단");
 	
+	
+	if(or <2){
+		System.out.println("2단이하 구구단은 출력되지 않습니다");
+	}else if(or >9){
+		System.out.println("9단이상은 구구단은 출려되지 않습니다");
+	}else{
 	int ans;
 	for(int j=1; j<10; j++){
 	ans	= or * j;
 	System.out.println(ans);
-	                        }
+	}}
 
 	           }
 	}
